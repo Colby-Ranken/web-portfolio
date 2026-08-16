@@ -138,32 +138,36 @@
           <div class="col-lg-7">
             <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
               <h3>Get In Touch</h3>
-              <p>Have a project in mind, a question, or just want to say hello? Fill out the form below and send me a message—I’ll get back to you as soon as I can.</p>
+              <p>
+                Interested in working together or have a project you’d like to discuss?
+                Feel free to send me a message using the form below. Whether you have a
+                question, an idea, or an opportunity to connect, I look forward to hearing from you.
+              </p>
 
-              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <form action="https://formspree.io/f/xdenwoaz" method="POST">
                 <div class="row gy-4">
 
                   <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                    <input type="text" name="name" class="form-control"
+                          placeholder="Your Name" required>
                   </div>
 
-                  <div class="col-md-6 ">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  <div class="col-md-6">
+                    <input type="email" name="email" class="form-control"
+                          placeholder="Your Email" required>
                   </div>
 
                   <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                    <input type="text" name="subject" class="form-control"
+                          placeholder="Subject" required>
                   </div>
 
                   <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                    <textarea class="form-control" name="message" rows="6"
+                              placeholder="Message" required></textarea>
                   </div>
 
                   <div class="col-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-
                     <button type="submit" class="btn">Send Message</button>
                   </div>
 
