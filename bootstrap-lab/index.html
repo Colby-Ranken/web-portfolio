@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trattoria Marcella</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+      .jumbotron-hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1517521135877-ac0ff0bbf2c5?w=1200&h=600&fit=crop') center/cover no-repeat;
+        color: white;
+        padding: 100px 20px;
+        text-align: center;
+      }
+      .jumbotron-hero h1 {
+        font-size: 3.5rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        margin-bottom: 20px;
+      }
+      .jumbotron-hero img {
+        max-width: 200px;
+        margin-bottom: 20px;
+        filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
+      }
+      .jumbotron-hero p {
+        font-size: 1.3rem;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+      }
+      .jumbotron-hero a {
+        color: #FFD700;
+        text-decoration: none;
+      }
+      .jumbotron-hero a:hover {
+        color: #FFA500;
+      }
+      .menu-section {
+        background-color: #f8f6f2;
+        padding: 80px 0;
+      }
+      .menu-card {
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        height: 100%;
+      }
+      .menu-card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        display: block;
+      }
+      .menu-card-body {
+        padding: 1.25rem;
+      }
+      .menu-card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+      }
+      .menu-card p {
+        margin-bottom: 1rem;
+        line-height: 1.6;
+      }
+      .menu-price {
+        font-size: 1.1rem;
+        font-weight: 700;
+      }
+      .menu-section .btn-warning {
+        background-color: #d4a62a;
+        border-color: #d4a62a;
+        color: #1b1b1b;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md bg-light">
+        <div class="container-fluid">
+          <div class="navbar-brand text-dark">
+            <strong>Trattoria Marcella</strong><br>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="https://www.trattoriamarcella.com/menu" target="_blank">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="https://maps.app.goo.gl/CS3WdPSDyWvBr56M6" target="_blank">Map</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="jumbotron-hero">
+        <h1>Trattoria Marcella</h1>
+        <img src="images/TrattoriaMarcella_logo.jpg" alt="Trattoria Marcella Logo">
+        <p>
+          <strong>Phone:</strong> <a href="tel:+13143527706">(314)&nbsp;352&#8209;7706</a>
+        </p>
+        <p>
+          <strong>Address:</strong> <a href="geo:38.5816,-90.2772?z=15">3600 Watson Rd, St. Louis, MO 63109</a>
+        </p>
+        <p>Authentic Italian Cuisine Since 2010</p>
+      </div>
+
+      <section class="menu-section">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">Popular Entrees</h2>
+            <p class="text-muted">A few favorites from the Trattoria Marcella menu.</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-3">
+              <article class="menu-card card h-100" style="background-color: #f3e2c7;">
+                <img src="images/CheeseTortellini.png" class="card-img-top" alt="Cheese Tortellini">
+                <div class="menu-card-body card-body">
+                  <h3 class="card-title">Cheese Tortellini</h3>
+                  <p class="card-text">Pan toasted, pancetta, brown butter, pistachio, and arugula.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="menu-price">$25.00</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <article class="menu-card card h-100" style="background-color: #dfeacb;">
+                <img src="images/LasagnaAlForno.png" class="card-img-top" alt="Lasagna al Forno">
+                <div class="menu-card-body card-body">
+                  <h3 class="card-title">Lasagna al Forno</h3>
+                  <p class="card-text">Italian sausage, ground beef, ricotta mozzarella, balsamella, and tomato.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="menu-price">$27.00</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <article class="menu-card card h-100" style="background-color: #eed7d0;">
+                <img src="images/Rigatoni.png" class="card-img-top" alt="Rigatoni">
+                <div class="menu-card-body card-body">
+                  <h3 class="card-title">Rigatoni</h3>
+                  <p class="card-text">Gulf shrimp, roasted cauliflower, sun-dried tomato, toasted pine nuts, and roasted garlic tomato cream.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="menu-price">$28.00</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <article class="menu-card card h-100" style="background-color: #d9edf5;">
+                <img src="images/ChickenRisotto.png" class="card-img-top" alt="Chicken Risotto">
+                <div class="menu-card-body card-body">
+                  <h3 class="card-title">Chicken Risotto</h3>
+                  <p class="card-text">Asparagus, herbed chicken breast, sun-dried tomato, and parmesan.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="menu-price">$26.00</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <article class="menu-card card h-100" style="background-color: #f4e7ef;">
+                <img src="images/Spaghetti&amp;Meatballs.png" class="card-img-top" alt="Spaghetti and Meatballs">
+                <div class="menu-card-body card-body">
+                  <h3 class="card-title">Spaghetti &amp; Meatballs</h3>
+                  <p class="card-text">Homemade meatballs with San Marzano tomato sauce.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="menu-price">$20.00</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="text-center mt-5">
+            <a class="btn btn-warning btn-lg" href="https://www.trattoriamarcella.com/menu/" target="_blank" rel="noreferrer">View Full Menu</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-dark text-light py-5">
+        <div class="container">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-4">
+              <h2 class="display-6 fw-bold mb-3">Visit Us</h2>
+              <p class="mb-2"><strong>Address:</strong> 3600 Watson Rd, St. Louis, MO 63109</p>
+              <p class="mb-0"><strong>Phone:</strong> (314) 352-7706</p>
+            </div>
+            <div class="col-lg-8">
+              <div class="ratio ratio-16x9 rounded overflow-hidden border border-light border-2">
+                <iframe
+                  src="https://www.google.com/maps?q=Trattoria+Marcella+3600+Watson+Rd+St.+Louis+MO+63109&z=15&output=embed"
+                  width="600"
+                  height="450"
+                  style="border:0;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  title="Trattoria Marcella location map">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p class="mb-0">&copy; 2026 Trattoria Marcella</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
