@@ -41,7 +41,7 @@ export const seedStudents: Student[] = [
     bio: "A creative student interested in front-end development and accessible web design.",
     skills: ["HTML", "CSS", "JavaScript"],
     gpa: 3.8,
-    photoUrl: "assets/photos/student1.jpg",
+    photoUrl: "final-project/assets/photos/student1.jpg",
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ export const seedStudents: Student[] = [
     bio: "Interested in network security, ethical hacking, and protecting digital systems.",
     skills: ["Linux", "Networking", "Python"],
     gpa: 3.6,
-    photoUrl: "assets/photos/student2.jpg",
+    photoUrl: "final-project/assets/photos/student2.jpg",
   },
   {
     id: 3,
@@ -64,7 +64,7 @@ export const seedStudents: Student[] = [
     email: "james.thomas@northstar.edu",
     bio: "Enjoys combining programming and engineering to build practical robotic systems.",
     skills: ["Python", "Arduino", "C++"],
-    photoUrl: "assets/photos/student3.jpg",
+    photoUrl: "final-project/assets/photos/student3.jpg",
   },
   {
     id: 4,
@@ -76,7 +76,7 @@ export const seedStudents: Student[] = [
     bio: "Focused on network infrastructure and cloud technologies.",
     skills: ["Cisco", "Linux", "Cloud Computing"],
     gpa: 3.4,
-    photoUrl: "assets/photos/student4.jpg",
+    photoUrl: "final-project/assets/photos/student4.jpg",
   },
   {
     id: 5,
@@ -87,7 +87,7 @@ export const seedStudents: Student[] = [
     email: "olivia.brown@northstar.edu",
     bio: "Interested in entrepreneurship, marketing, and technology-driven business.",
     skills: ["Marketing", "Excel", "Communication"],
-    photoUrl: "assets/photos/student5.jpg",
+    photoUrl: "final-project/assets/photos/student5.jpg",
   },
   {
     id: 6,
@@ -99,7 +99,7 @@ export const seedStudents: Student[] = [
     bio: "Enjoys building interactive applications and learning modern development tools.",
     skills: ["TypeScript", "React", "Git"],
     gpa: 3.9,
-    photoUrl: "assets/photos/student6.jpg",
+    photoUrl: "final-project/assets/photos/student6.jpg",
   },
   {
     id: 7,
@@ -110,7 +110,7 @@ export const seedStudents: Student[] = [
     email: "emma.wilson@northstar.edu",
     bio: "Passionate about digital forensics and helping organizations improve security.",
     skills: ["Digital Forensics", "Python", "Security"],
-    photoUrl: "assets/photos/student7.jpg",
+    photoUrl: "final-project/assets/photos/student7.jpg",
   },
   {
     id: 8,
@@ -122,7 +122,7 @@ export const seedStudents: Student[] = [
     bio: "A beginner programmer who enjoys experimenting with electronics and automation.",
     skills: ["Arduino", "Python", "3D Printing"],
     gpa: 3.2,
-    photoUrl: "assets/photos/student8.jpg",
+    photoUrl: "final-project/assets/photos/student8.jpg",
   },
   {
     id: 9,
@@ -133,7 +133,7 @@ export const seedStudents: Student[] = [
     email: "liam.taylor@northstar.edu",
     bio: "Interested in network administration, infrastructure, and cloud computing.",
     skills: ["Networking", "Cisco", "AWS"],
-    photoUrl: "assets/photos/student9.jpg",
+    photoUrl: "final-project/assets/photos/student9.jpg",
   },
   {
     id: 10,
